@@ -133,7 +133,10 @@ NOSPAM_CHAT = [
     -1001361294038,
 ]
 
-DEVS = [1819127505, 5573141376]
+DEVS = [
+    1819127505,
+    5573141376,
+]
 
 async def runcmd(cmd: str) -> Tuple[str, str, int, int]:
     """run command in terminal"""
