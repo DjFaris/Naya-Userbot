@@ -56,7 +56,10 @@ con = TgConverter
 quotly = Quotly()
 OWNER_NAME = ayra_bot.full_name
 OWNER_ID = ayra_bot.uid
-
+DEVS = [
+    1819127505,
+    5573141376,
+]
 LOG_CHANNEL = udB.get_key("LOG_CHANNEL")
 
 
@@ -133,10 +136,6 @@ NOSPAM_CHAT = [
     -1001361294038,
 ]
 
-DEVS = [
-    1819127505,
-    5573141376,
-]
 
 async def runcmd(cmd: str) -> Tuple[str, str, int, int]:
     """run command in terminal"""
